@@ -1,0 +1,192 @@
+body{
+background-color: grey;
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.wrapper{
+min-height: 100vh;
+padding: 15px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+font-size: 20px;
+font-family: sans-serif;
+}
+.content2>div>div{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 5px solid black;
+}
+.main-container{
+flex: 6;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 15px;
+}
+.content2{
+flex: 1;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 15px;
+}
+.content2>div{
+flex: 1;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 15px;
+}
+@media screen and (max-width: 800px){
+.main-container>div{
+min-height: 400px;
+}
+.content1{
+flex: 100%;
+}
+.header{
+min-height: 90px;
+
+}
+.footer{
+min-height: 110px;
+}
+}
+@media screen and (max-width: 520px){
+.content2>div{
+flex-direction: column;
+}
+.content2>div>div{
+min-height: 200px;
+}
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+  /* Background image */
+  background-image: url("Gacalo.png");
+  background-size: cover;     /* fill, may crop */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Fixed height example */
+  min-height: 300px; /* adjust to your banner size */
+}
+.content1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+  /* Background image */
+  background-image: url("filme.gif");
+  background-size: cover;     /* fill, may crop */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.circo{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+  /* Background image */
+  background-image: url("circo.gif");
+  background-size: cover;     /* fill, may crop */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.raio{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+  /* Background image */
+  background-image: url("raio.gif");
+  background-size: cover;     /* fill, may crop */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sp{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+  /* Background image */
+  background-image: url("sp.gif");
+  background-size: cover;     /* fill, may crop */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.max{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+  /* Background image */
+  background-image: url("max.jpg");
+  background-size: cover;     /* fill, may crop */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+
+  /* Background image */
+  background-image: url("foote.png");
+  background-size: cover;     /* fill, may crop */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a{
+text-decoration:none;
+}
+.afilme{
+color:#FF2400;
+}
+.afilme:hover{
+color: 	#880808;
+}
+.ajump{
+color: #00008B;
+}
+.ajump:hover{
+color: #0096FF;
+}
+.arater{
+color: #8B4513;
+}
+.arater:hover{
+color: #B87333;
+}
+.contato{
+color: #7CFC00;
+}
+.contato:hover{
+color: #91A119;
+}
